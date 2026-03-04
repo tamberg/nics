@@ -6,11 +6,28 @@ Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-
 
 Address space information based on [IANA assignments](http://www.iana.org/assignments/ipv4-address-space) licensed under [their licensing terms](https://www.iana.org/help/licensing-terms).
 
+## Wiring
+### Wire
 To adapt the GPIO pins to your wiring on a Pi, see [this pinout](https://pinout.xyz).
 
-## Code
-Requires [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
+### Test
+Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
 
+Set GPIO pin 23 as output.
+```console
+$ pinctrl set 23 op
+```
+
+Set GPIO pin 23 to high.
+```console
+$ pinctrl set 23 dh
+```
+
+Set GPIO pin 23 to low.
+```console
+$ pinctrl set 23 dl
+```
+## Code
 ### Build
 Build [nics.c](nics.c) on Linux
 ```console
