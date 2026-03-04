@@ -9,7 +9,7 @@ Address space information based on [IANA assignments](http://www.iana.org/assign
 To adapt the pins to your wiring, see https://pinout.xyz > GPIO.
 
 ## Code
-Build on Linux
+Build [nics.c](nics.c) on Linux
 ```console
 $ gcc -o nics nics.c
 ```
