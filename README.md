@@ -3,6 +3,6 @@ A physical map that shows the [regional internet registry](https://en.wikipedia.
 
 Map design based on https://en.wikipedia.org/wiki/Regional_Internet_registry#/media/File:Regional_Internet_Registries_world_map.svg licensed under CC BY-SA 3.0 via https://en.wikipedia.org/wiki/Regional_Internet_registry
 
-Address space information based on http://www.iana.org/assignments/ipv4-address-space
+Address space information based on http://www.iana.org/assignments/ipv4-address-space licensed under https://www.iana.org/help/licensing-terms
 
 To adapt the pinout to your wiring, see https://pinout.xyz > GPIO
