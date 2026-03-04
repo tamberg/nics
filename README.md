@@ -11,7 +11,6 @@ Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-
 ├── map_nics_afrinic.svg
 ├── map_nics_apnic.svg
 ├── map_nics_arin.svg
-├── map_nics_bak.svg
 ├── map_nics_frame.svg
 ├── map_nics_holes.svg
 ├── map_nics_lacnic.svg
