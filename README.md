@@ -6,3 +6,18 @@ Map [design files](map) by T. Amberg licensed [CC BY-SA 4.0](https://creativecom
 Address space information based on [IANA assignments](http://www.iana.org/assignments/ipv4-address-space) licensed under [their licensing terms](https://www.iana.org/help/licensing-terms).
 
 To adapt the pins to your wiring, see https://pinout.xyz > GPIO.
+
+Build on Linux
+'''console
+$ gcc -o nics nics.c
+'''
+
+Run on Linux
+'''console
+$ ./nics
+'''
+
+Test
+'''console
+$ curl -v raspberrypi.local:8080/#{0..999}
+'''
