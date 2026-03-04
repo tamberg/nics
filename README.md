@@ -19,7 +19,7 @@ Run on Linux
 $ ./nics
 ```
 
-Test
+Test on Linux
 ```console
 $ curl -v 127.0.0.1:8080/#{0..999}
 ```
