@@ -8,19 +8,16 @@ Address space information based on [IANA assignments](http://www.iana.org/assign
 To adapt the pins to your wiring, see https://pinout.xyz > GPIO.
 
 Build on Linux
-
-'''console
+```console
 $ gcc -o nics nics.c
-'''
+```
 
 Run on Linux
-
-'''console
+```console
 $ ./nics
-'''
+```
 
 Test
-
-'''console
+```console
 $ curl -v raspberrypi.local:8080/#{0..999}
-'''
+```
