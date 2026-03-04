@@ -6,7 +6,7 @@ Map [design files](map) by T. Amberg licensed [CC BY-SA 4.0](https://creativecom
 
 Address space information based on [IANA assignments](http://www.iana.org/assignments/ipv4-address-space) licensed under [their licensing terms](https://www.iana.org/help/licensing-terms).
 
-To adapt the pins to your wiring, see https://pinout.xyz > GPIO.
+To adapt the GPIO pins to your wiring on a Pi, see [this pinout](https://pinout.xyz).
 
 ## Code
 Build [nics.c](nics.c) on Linux
