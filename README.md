@@ -7,11 +7,7 @@ Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-
 Address space information based on [IANA assignments](http://www.iana.org/assignments/ipv4-address-space) licensed under [their licensing terms](https://www.iana.org/help/licensing-terms).
 
 ## Wiring
-### Wire
-To adapt the GPIO pins to your wiring on a Pi, see [this pinout](https://pinout.xyz).
-
-### Test
-Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
+Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) and [this pinout](https://pinout.xyz).
 
 Set GPIO pin 23 as output.
 ```console
@@ -27,18 +23,17 @@ Set GPIO pin 23 to low.
 ```console
 $ pinctrl set 23 dl
 ```
+
 ## Code
-### Build
 Build [nics.c](nics.c) on Linux
 ```console
 $ gcc -o nics nics.c
 ```
-### Run
 Run on Linux
 ```console
 $ ./nics
 ```
-### Test
+
 Test on Linux
 ```console
 $ curl -v 127.0.0.1:8080/#{0..999}
