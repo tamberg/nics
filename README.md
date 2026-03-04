@@ -19,5 +19,5 @@ $ ./nics
 
 Test
 ```console
-$ curl -v raspberrypi.local:8080/#{0..999}
+$ curl -v 127.0.0.1:8080/#{0..999}
 ```
