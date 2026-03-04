@@ -19,7 +19,7 @@ Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-
 ├── map_nics_ripe-ncc.svg
 └── map_nics_text.svg
 ```
-<img src="images/lasercut.jpg">
+<img src="images/lasered.jpg">
 
 ## Wiring
 Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) and [this pinout](https://pinout.xyz).
