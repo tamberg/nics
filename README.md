@@ -9,16 +9,19 @@ Address space information based on [IANA assignments](http://www.iana.org/assign
 To adapt the GPIO pins to your wiring on a Pi, see [this pinout](https://pinout.xyz).
 
 ## Code
+Requires [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
+
+### Build
 Build [nics.c](nics.c) on Linux
 ```console
 $ gcc -o nics nics.c
 ```
-
+### Run
 Run on Linux
 ```console
 $ ./nics
 ```
-
+### Test
 Test on Linux
 ```console
 $ curl -v 127.0.0.1:8080/#{0..999}
