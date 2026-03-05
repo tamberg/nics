@@ -22,7 +22,9 @@ map
 <img src="images/lasercut.jpg">
 
 ## Wiring
-Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) and [this pinout](https://pinout.xyz) as well as six 5mm LEDs with a 1k resistor each.
+Using six 5mm LEDs with a 1k resistor each, see [this pinout](https://pinout.xyz) to connect ground and GRPIO pins 5, 22, 23, 24, 25 and 27, then test each with [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
+
+<img src="images/wired.jpg">
 
 Set GPIO pin 23 as output.
 ```console
@@ -38,8 +40,6 @@ Set GPIO pin 23 to low.
 ```console
 $ pinctrl set 23 dl
 ```
-
-<img src="images/wired.jpg">
 
 ## Code
 Build [nics.c](nics.c) on Linux
