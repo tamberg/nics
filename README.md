@@ -33,7 +33,7 @@ See [this pinout](https://pinout.xyz) to locate pins on the Raspberry Pi.
 <img src="images/wired.jpg">
 
 ## Testing
-Test each pin with [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
+Test each pin with the [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) tool.
 
 Set GPIO pin 23 as output.
 ```console
