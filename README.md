@@ -28,7 +28,7 @@ Solder them to a proto board and mount it with hot glue.
 
 Connect GND and GPIO pins 5, 22, 23, 24, 25 and 27.
 
-See [this pinout](https://pinout.xyz) to find pins on the Raspberry Pi.
+See [this pinout](https://pinout.xyz) to locate pins on the Raspberry Pi.
 
 <img src="images/wired.jpg">
 
