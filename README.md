@@ -24,7 +24,7 @@ map
 ## Wiring
 Use six 5mm LEDs with a 1k resistor each and add wires.
 
-Solder them to a proto board, mount it with hot glue.
+Solder them to a proto board and mount it with hot glue.
 
 Connect GND and GPIO pins 5, 22, 23, 24, 25 and 27.
 
