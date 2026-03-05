@@ -22,9 +22,12 @@ map
 <img src="images/lasercut.jpg">
 
 ## Wiring
-Using six 5mm LEDs with a 1k resistor each, see [this pinout](https://pinout.xyz) to connect ground and GRPIO pins 5, 22, 23, 24, 25 and 27, then test each with [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
+Using six 5mm LEDs with a 1k resistor each, see [this pinout](https://pinout.xyz) to connect ground and GRPIO pins 5, 22, 23, 24, 25 and 27.
 
 <img src="images/wired.jpg">
+
+## Testing
+Test each pin with [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl).
 
 Set GPIO pin 23 as output.
 ```console
