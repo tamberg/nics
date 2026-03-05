@@ -5,7 +5,7 @@ Address space information based on [IANA assignments](http://www.iana.org/assign
 
 <img src="images/connected.jpg"/>
 
-## Map
+## Making
 Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), based on [this map](https://en.wikipedia.org/wiki/Regional_Internet_registry#/media/File:Regional_Internet_Registries_world_map.svg) by [Wikipedia.org](https://en.wikipedia.org/) licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en), edited on [Inkscape](https://inkscape.org), laser-cut at [FabLab Zürich](https://zurich.fablab.ch).
 ```
 map
@@ -50,7 +50,7 @@ Set GPIO pin 23 to low.
 $ pinctrl set 23 dl
 ```
 
-## Code
+## Running
 Build [nics.c](nics.c) on Linux
 ```console
 $ gcc -o nics nics.c
