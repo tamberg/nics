@@ -5,7 +5,7 @@ Address space information based on [IANA assignments](http://www.iana.org/assign
 
 <img src="images/connected.jpg"/>
 
-## Making
+## Making the map
 Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en), based on [this map](https://en.wikipedia.org/wiki/Regional_Internet_registry#/media/File:Regional_Internet_Registries_world_map.svg) by [Wikipedia.org](https://en.wikipedia.org/) licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en), edited on [Inkscape](https://inkscape.org), laser-cut at [FabLab Zürich](https://zurich.fablab.ch).
 ```
 map
@@ -21,7 +21,7 @@ map
 ```
 <img src="images/lasercut.jpg">
 
-## Wiring
+## Wiring the parts
 Use six 5mm LEDs with a 1k resistor each and add wires.
 
 Solder them to a proto board and mount it with hot glue.
@@ -32,7 +32,7 @@ See [this pinout](https://pinout.xyz) to locate pins on the Raspberry Pi.
 
 <img src="images/wired.jpg">
 
-## Testing
+## Testing the pins
 Test each pin with the [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) tool, e.g.
 
 Set GPIO pin 23 as output.
@@ -50,7 +50,7 @@ Set GPIO pin 23 to low.
 $ pinctrl set 23 dl
 ```
 
-## Running
+## Running the code
 Build [nics.c](nics.c) on Linux
 ```console
 $ gcc -o nics nics.c
