@@ -22,7 +22,7 @@ map
 <img src="images/lasercut.jpg">
 
 ## Wiring
-Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) and [this pinout](https://pinout.xyz).
+Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) and [this pinout](https://pinout.xyz) as well as six 5mm LEDs with a 1k resistor each.
 
 Set GPIO pin 23 as output.
 ```console
