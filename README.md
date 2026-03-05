@@ -22,9 +22,13 @@ map
 <img src="images/lasercut.jpg">
 
 ## Wiring
-Use 6 5mm LEDs with a 1k resistor each, connect GND and GPIO pins 5, 22, 23, 24, 25 and 27.
+Use six 5mm LEDs with a 1k resistor each and add wires.
 
-See [this pinout](https://pinout.xyz) for the Pi.
+Solder them to a proto board, mount it with hot glue.
+
+Connect GND and GPIO pins 5, 22, 23, 24, 25 and 27.
+
+See [this pinout](https://pinout.xyz) for the Raspberry Pi.
 
 <img src="images/wired.jpg">
 
