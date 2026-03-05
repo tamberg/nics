@@ -50,6 +50,8 @@ Set GPIO pin 23 to low.
 $ pinctrl set 23 dl
 ```
 
+Adapt the [pin order in the code](https://github.com/tamberg/nics/blob/main/nics.c#L35-L44).
+
 ## Running the code
 Build [nics.c](nics.c) on Linux
 ```console
