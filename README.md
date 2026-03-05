@@ -19,7 +19,7 @@ Map [design files](map) by [T. Amberg](https://www.tamberg.org) licensed [CC BY-
 ├── map_nics_ripe-ncc.svg
 └── map_nics_text.svg
 ```
-<img src="images/lasered.jpg">
+<img src="images/lasercut.jpg">
 
 ## Wiring
 Using [pinctrl](https://github.com/raspberrypi/utils/tree/master/pinctrl) and [this pinout](https://pinout.xyz).
@@ -38,6 +38,8 @@ Set GPIO pin 23 to low.
 ```console
 $ pinctrl set 23 dl
 ```
+
+<img src="images/wired.jpg">
 
 ## Code
 Build [nics.c](nics.c) on Linux
