@@ -22,7 +22,9 @@ map
 <img src="images/lasercut.jpg">
 
 ## Wiring
-Using six 5mm LEDs with a 1k resistor each, see [this pinout](https://pinout.xyz) to connect ground and GRPIO pins 5, 22, 23, 24, 25 and 27.
+Use 6 5mm LEDs with a 1k resistor each, connect GND and GPIO pins 5, 22, 23, 24, 25 and 27.
+
+See [this pinout](https://pinout.xyz) for the Pi.
 
 <img src="images/wired.jpg">
 
